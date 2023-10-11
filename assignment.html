@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background-color: #1B4075;
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+        }
+
+        form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #2E5BAE;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        form button:hover {
+            background-color: #EC2155;
+        }
+
+        a:hover {
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <input type="text" placeholder="Username" required><br><br>
+        <input type="password" placeholder="Password" required><br><br>
+        <select name="age" required>
+            <option value="below-18">Below 18 years</option>
+            <option value="18-25">18-25 years</option>
+            <option value="26-40">26-40 years</option>
+            <option value="41-60">41-60 years</option>
+            <option value="above-60">Above 60 years</option>
+        </select><br><br>
+        <button type="submit">Register</button>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
